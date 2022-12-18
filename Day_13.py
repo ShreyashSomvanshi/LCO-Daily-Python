@@ -15,10 +15,12 @@ KaraTotalMoney = KGlassCount * KGlassRate
 RaniTotalMoney = RGlassCount * RGlassRate
 
 if KaraTotalMoney > RaniTotalMoney:
+  print("Kara has earned more than Rani")
   print("Kara:",KaraTotalMoney,"cents.")
   
 elif KaraTotalMoney < RaniTotalMoney:
+  print("Rani has earned more than Kara")
   print("Rani:",RaniTotalMoney,"cents.")
   
 elif KaraTotalMoney == RaniTotalMoney:
-  print("Kara & Rani's money is equal.")
+  print("Rani and Kara have earned equal amount.")
